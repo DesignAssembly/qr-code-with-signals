@@ -1,0 +1,10 @@
+<div class="card"
+[style.flex-direction]="flexDirection()"
+[style.width]="cardWidth()"
+>
+    <img src="images/image-qr-code.png" alt="QR Code" />
+    <div class="info">
+        <h1>{{ titleText() }}</h1>
+        <p>{{ qrData().description }}</p>
+    </div>
+</div>
